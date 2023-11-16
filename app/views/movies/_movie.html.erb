@@ -1,0 +1,23 @@
+<div id="<%= dom_id movie %>">
+  <p>
+    <strong>Title:</strong>
+    <%= movie.title %>
+  </p>
+
+  <p>
+    <strong>Overview:</strong>
+    <%= movie.overview %>
+  </p>
+
+  <p>
+    <strong>Poster url:</strong>
+    <%= image_tag movie.poster_url, alt: 'Movie Poster', style: 'height: 160px; width: 120px;' %>
+
+  </p>
+
+  <p>
+    <strong>Rating:</strong>
+    <%= movie.rating %>
+  </p>
+
+</div>
